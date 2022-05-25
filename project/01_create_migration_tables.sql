@@ -2,7 +2,7 @@
 CREATE TABLE shipping_agreement
 (
   agreementid          BIGINT        NOT NULL,
-  agreement_number     VARCHAR(30)   UNIQUE,
+  agreement_number     VARCHAR(30)  ,
   agreement_rate       NUMERIC(14,4),
   agreement_commission NUMERIC(14,4),
   PRIMARY KEY (agreementid)
